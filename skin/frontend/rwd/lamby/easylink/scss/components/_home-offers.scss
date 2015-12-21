@@ -1,0 +1,50 @@
+.home-offers {
+	margin-left: -1px;
+	margin-right: -1px;
+	margin-top: 50px;
+}
+
+.home-offer {
+	display: block;
+	width: 33.33%;
+	float: left;
+	box-sizing: border-box;
+	padding: 0 1px;
+
+	.home-offer-header {
+		background: #f9f9f9;
+		padding: 40px;
+	}
+
+	.home-offer-title {
+		font-size: 34px;
+		color: $color1;
+		font-family: 'montserratblack';
+		text-transform: uppercase;
+		line-height: 34px;
+	}
+
+	.home-offer-title-em {
+		font-size: 16px;
+		color: $color1b;
+		line-height: 0;
+		font-family: 'montserratbold';
+	}
+
+	.home-offer-image {
+		display: block;
+		width: 100%;
+		height: auto;
+		-webkit-backface-visibility: hidden;
+	}
+
+	&:hover {
+		.home-offer-title {
+			color: $color3;
+		}
+
+		.home-offer-image {
+			opacity: .8;
+		}
+	}
+}

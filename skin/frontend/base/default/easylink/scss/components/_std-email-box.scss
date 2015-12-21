@@ -1,0 +1,49 @@
+.std-email-box {
+	height: 100px;
+	box-sizing: border-box;
+	line-height: 100px;
+	border: solid 1px #f2f2f2;
+
+	.std-email-box-title, .std-email-box-email {
+		height: 100%;
+		float: left;
+		padding: 0 40px;
+		box-sizing: border-box;
+		font-size: 16px;
+		color: #222327;
+		font-family: 'montserratbold';
+		text-transform: uppercase;
+	}
+
+	.std-email-box-title {
+		border-right: solid 1px #f2f2f2;
+	}
+
+	.std-email-box-email {
+		position: relative;
+		padding-left: (40px + 32 + 20);
+
+		&:before {
+			display: block;
+			content: '';
+			width: 32px;
+			height: 32px;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			background-image: url('../img/envelope.png');
+			position: absolute;
+			left: 40px;
+			top: 50%;
+			margin-top: -(32px / 2);
+		}
+	}
+
+	a {
+		color: $color1;
+		border-bottom: solid 1px #9ec6e7;
+
+		&:hover {
+			color: $color3;
+		}
+	}
+}

@@ -1,0 +1,57 @@
+body {
+	overflow-x: hidden;
+}
+
+::selection {
+	background: $color3;
+	color: $color1;
+	color: #fff;
+}
+
+::-moz-selection {
+	background: $color3;
+	color: $color1;
+	color: #fff;
+}
+
+
+.main-col {
+	&.main-col--visible {
+		overflow: visible;
+	}
+}
+
+.ratings {
+	display: none;
+}
+
+.category-footer-images {
+	overflow: hidden;
+	padding-left: 25px;
+	margin-top: 30px;
+
+	img {
+		display: block;
+		float: left;
+	}
+
+	img + img {
+		margin-left: 20px;
+	}
+}
+
+.msrp-price-hide-message,
+.msrp-price-hide-message + a {
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.msrp-price-hide-message {
+	display: block;
+	float: none;
+	margin-top: 20px;
+}
+
+.msrp-price-hide-message + a {
+	color: #003686;
+}

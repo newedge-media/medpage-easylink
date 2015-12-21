@@ -1,0 +1,30 @@
+{
+  "name": "easylink",
+  "version": "0.0.0",
+  "authors": [
+    "Wojciech Pasiński"
+  ],
+  "main": "index.php",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate-sass": "~0.6.4",
+    "compass-breakpoint": "~2.6.1",
+    "jQuery.dotdotdot": "~1.7.4",
+    "matchHeight": "matchheight#~0.6.0",
+    "malihu-custom-scrollbar-plugin": "~3.1.3"
+  }
+}

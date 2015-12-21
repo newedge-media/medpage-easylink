@@ -1,0 +1,66 @@
+.home-twitter {
+	position: relative;
+	margin-top: 40px;
+
+	.bx-wrapper {
+		background-image: url('../img/twitter-bg.png');
+		background-position: left;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+
+	.bx-wrapper .bx-viewport {
+		background: none;
+	}
+}
+
+.home-twitter-slider {
+	position: relative;
+	background: #f9f9f9;
+	border-bottom: solid 2px #f6b93d;
+	position: relative;
+}
+
+.home-twitter-slide {
+	text-align: center;
+	padding: 75px;
+	font-size: 17px;
+	color: #222327;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	box-sizing: border-box;
+}
+
+.home-twitter-slide-date {
+	font-size: 16px;
+	color: #222327;
+	font-family: 'montserratbold';
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+
+.home-twitter-slide-content {
+	margin-bottom: 40px;
+
+	a {
+		color: #0060b8;
+		border-bottom: solid 1px;
+
+		&:hover {
+			color: #f6b93d;
+		}
+	}
+}
+
+.home-twitter-slide-author {
+	font-weight: 600;
+	font-size: 14px;
+
+	a {
+		color: #222327;
+
+		&:hover {
+			color: #0060b8;
+		}
+	}
+}

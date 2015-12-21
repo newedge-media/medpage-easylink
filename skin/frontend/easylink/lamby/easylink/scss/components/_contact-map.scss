@@ -1,0 +1,113 @@
+.contact-map-container {
+	position: relative;
+}
+
+.contact-map {
+	height: 350px;
+}
+
+.contact-map-content {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 0;
+	width: 495px;
+	padding: 50px;
+	background: rgba(249, 249, 249, .9);
+	box-sizing: border-box;
+
+	.contact-map-content-close {
+		display: block;
+		width: 9px;
+		height: 9px;
+		position: absolute;
+		top: 50px;
+		right: 50px;
+
+		&:before {
+			display: block;
+			content: '\f00d';
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			line-height: 9px;
+			font-family: FontAwesome;
+			color: $color1;
+		}
+
+		&:hover {
+			&:before {
+				color: $color3;
+			}
+		}
+	}
+
+	h3 {
+		margin-top: 0;
+		font-family: 'montserratbold';
+		font-size: 16px;
+		text-transform: uppercase;
+		color: #222327;
+		margin-bottom: 20px;
+	}
+
+	p {
+		color: #222327;
+		font-family: 'Open Sans';
+		font-weight: 400;
+		font-size: 16px;
+	}
+}
+
+.contact-input {
+	height: 40px;
+	margin-top: 30px;
+
+	form {
+		width: 100%;
+		height: 100%;
+		position: relative;
+
+		.contact-input-input-container, .contact-input-button {
+			position: absolute;
+			height: 100%;
+			width: auto;
+			box-sizing: border-box;
+		}
+
+		.contact-input-input-container {
+			left: 0;
+			right: 150px;
+		}
+
+		.contact-input-input {
+			background: #fff;
+			width: 100%;
+			border: none;
+			height: 100%;
+			padding: 0 15px;
+			box-sizing: border-box;
+			font-family: 'Open Sans';
+			font-size: 14px;
+			color: #a4a4a4;
+		}
+
+		.contact-input-button {
+			right: 0;
+			width: 150px;
+			line-height: 40px;
+			background: $color3;
+			color: #fff;
+			border: none;
+			font-size: 14px;
+			font-family: 'montserratbold';
+			text-transform: uppercase;
+			cursor: pointer;
+
+			&:hover {
+				background: $color2;
+				color: $color3;
+			}
+		}
+	}
+}
