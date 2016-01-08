@@ -88,6 +88,7 @@ switch($_SERVER['HTTP_HOST']) {
         break;
     case 'easylink.dev':
     case 'www.easylink.dev':
+    case 'easylink.nextmp.net':
         $mageRunCode = 'easylink';
         $mageRunType = 'website';
         break;
