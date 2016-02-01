@@ -2347,7 +2347,7 @@ input.input-text, select, textarea {
 	border: none;
 	padding: 10px;
 	outline: none;
-	color: #aaa;
+	color: #333;
 }
 #wishlist-table textarea {
 	padding: 10px;
