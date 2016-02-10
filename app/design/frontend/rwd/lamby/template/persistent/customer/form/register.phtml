@@ -24,12 +24,14 @@
                 <li class="fields">
                     <?php echo $this->getLayout()->createBlock('customer/widget_name')->setObject($this->getFormData())->setForceUseCustomerAttributes(true)->toHtml() ?>
                 </li>
+                <?php /*
                 <li>
                     <label for="email_address"><?php echo $this->__('Email Address') ?><em class="required">*</em></label>
                     <div class="input-box">
                         <input  type="text" name="email" id="email_address" value="<?php echo $this->escapeHtml($this->getFormData()->getEmail()) ?>" title="<?php echo $this->__('Email Address') ?>" class="input-text validate-email required-entry" />
                     </div>
                 </li>
+                */ ?>
                 <?php if ($this->isNewsletterEnabled()) { $whf_isNewsletterEnabled = true; ?>
                 <?php /*
                 <li class="control">
