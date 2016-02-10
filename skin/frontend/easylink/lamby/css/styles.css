@@ -2595,7 +2595,12 @@ form h2, form h3, .section h3 {
 	padding: 0;
 }
 .buttons-set a.back-link {
-	float: left;
+	floa/*t: left;
+	margin-right: 15px;
+	font-weight: bold;
+	color: #333;*/
+
+	float: right;
 	margin-right: 15px;
 	font-weight: bold;
 	color: #333;
