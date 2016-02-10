@@ -3845,11 +3845,12 @@ overflow: hidden;
 .jcarousel-skin-tango5 .jcarousel-item-horizontal {
 	margin: 15px 20px 0 80px !important;
 }
-.our-features-box { display:none; }
-.our-features-box.mob { display:block; }
+/*.our-features-box { display:none; }
+.our-features-box.mob { display:block; }*/
 .our-features-box li {
 	width: 400px;
-	margin: 15px 0 30px;
+	/*margin: 15px 0 30px;*/
+	margin: 0;
 }
 .our-features-box .feature-box {
 	width: 400px;
