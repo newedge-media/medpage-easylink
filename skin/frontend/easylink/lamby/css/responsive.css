@@ -3849,7 +3849,6 @@ overflow: hidden;
 .our-features-box.mob { display:block; }*/
 .our-features-box li {
 	width: 400px;
-	/*margin: 15px 0 30px;*/
 	margin: 0;
 }
 .our-features-box .feature-box {
