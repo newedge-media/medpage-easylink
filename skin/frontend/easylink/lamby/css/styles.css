@@ -2606,9 +2606,9 @@ form h2, form h3, .section h3 {
 	color: #333;
 }
 .buttons-set a.back-link:hover {
-	float: left;
+/*	float: left;
 	margin-right: 15px;
-	font-weight: bold;
+	font-weight: bold;*/
 	color: #CA0000;
 }
 .buttons-set button.button {
@@ -7960,7 +7960,7 @@ p.required {
 	background: #f7f7f7;
 	padding: 45px;
 	border: 1px solid #eaeaea;
-	min-height: 265px;
+	min-height: 285px;
 }
 .login_page strong {
 	font-size: 13px;
