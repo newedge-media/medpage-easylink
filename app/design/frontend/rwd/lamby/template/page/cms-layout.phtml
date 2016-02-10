@@ -28,11 +28,10 @@
         </div>
       </div>
 
-      <!-- Header block call Mobile-->
-      <div class="our-features-box">
+      <div class="our-features-box mob">
          <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('lamby_header_block')->toHtml() ?>  
       </div>
-            
+
       <div class="main-col">
         <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('lamby_home_offer_banner_block')->toHtml() ?>
       </div>
@@ -56,10 +55,6 @@
       <!-- Home Lastest Blog Block -->
       <?php // echo $this->getLayout()->createBlock('cms/block')->setBlockId('lamby_home_latest_blog_block')->toHtml() ?>
 
-      <div class="our-features-box mob">
-         <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('lamby_header_block')->toHtml() ?>  
-      </div>
-      
       <?php echo $this->getChildHtml('footer') ?>
       <?php echo $this->getChildHtml('before_body_end') ?>
       <?php echo $this->getAbsoluteFooter() ?>     
