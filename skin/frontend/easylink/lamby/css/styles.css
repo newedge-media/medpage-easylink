@@ -7960,6 +7960,7 @@ p.required {
 	background: #f7f7f7;
 	padding: 45px;
 	border: 1px solid #eaeaea;
+	min-height: 265px;
 }
 .login_page strong {
 	font-size: 13px;
