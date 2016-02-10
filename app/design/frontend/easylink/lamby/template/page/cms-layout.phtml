@@ -28,14 +28,14 @@
         </div>
       </div>
    
-      <div class="main-col">
-        <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('lamby_home_offer_banner_block')->toHtml() ?>
-      </div>
-
       <div class="our-features-box mob">
          <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('lamby_header_block')->toHtml() ?>  
       </div>
       
+      <div class="main-col">
+        <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('lamby_home_offer_banner_block')->toHtml() ?>
+      </div>
+
       <div class="recommend-pro">
         <div><?php echo $this->getLayout()->createBlock('catalog/product_list')->setTemplate('catalog/product/recommended.phtml')->toHtml(); ?></div>
       </div>
