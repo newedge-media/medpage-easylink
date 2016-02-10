@@ -2080,7 +2080,7 @@ p.control input.checkbox, p.control input.radio {
 	clear: both;
 	margin-bottom: 0;
 }
-.form-list .field {
+.form-list .field, .login-page .customer-name .name-firstname, .login-page .customer-name .name-lastname {
 	position: relative;
 	margin-bottom: 25px;
 }
@@ -14186,4 +14186,34 @@ li.item:hover a.thumb span.quick-view {
     margin: auto 0;
     height: 35px;
     overflow: hidden; opacity:0.8; 
+}
+.whf-field-checkbox {
+	position: relative;
+}
+.whf-field-checkbox input {
+	margin-right: 13px;
+}
+.whf-field-checkbox-box {
+	width: 16px;
+	height: 16px;
+	background: #fff;
+	position: absolute;
+	top: 3px;
+	left: 0px;
+	pointer-events: none;
+}
+.whf-field-checkbox-box:before {
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #5d893c;
+	line-height: 16px;
+	text-align: center;
+	content: "\f00c";
+	font-family: FontAwesome;
+	font-size: 9px;
+	opacity: 0;
+}
+.whf-field-checkbox input:checked + .whf-field-checkbox-box:before {
+	opacity: 1;
 }
