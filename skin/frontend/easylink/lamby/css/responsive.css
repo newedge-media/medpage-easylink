@@ -3845,8 +3845,8 @@ overflow: hidden;
 .jcarousel-skin-tango5 .jcarousel-item-horizontal {
 	margin: 15px 20px 0 80px !important;
 }
-/*.our-features-box { display:none; }
-.our-features-box.mob { display:block; }*/
+.our-features-box { display:none; }
+.our-features-box.mob { display:block; }
 .our-features-box li {
 	width: 400px;
 	margin: 0;
