@@ -219,6 +219,9 @@
 
 @media (max-width: 767px) {
 
+	.our-features-box { display: none !important; }
+	.our-features-box.mob { display: block !important; }
+
 	.category-subcategory .category-subcategory-thumb img {
 		opacity: 1 !important;
 	}
