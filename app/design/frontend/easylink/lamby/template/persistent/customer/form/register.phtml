@@ -24,18 +24,22 @@
                 <li class="fields">
                     <?php echo $this->getLayout()->createBlock('customer/widget_name')->setObject($this->getFormData())->setForceUseCustomerAttributes(true)->toHtml() ?>
                 </li>
+                <?php /*
                 <li>
                     <label for="email_address"><?php echo $this->__('Email Address') ?><em class="required">*</em></label>
                     <div class="input-box">
                         <input  type="text" name="email" id="email_address" value="<?php echo $this->escapeHtml($this->getFormData()->getEmail()) ?>" title="<?php echo $this->__('Email Address') ?>" class="input-text validate-email required-entry" />
                     </div>
                 </li>
-                <?php if ($this->isNewsletterEnabled()): ?>
+                */ ?>
+                <?php if ($this->isNewsletterEnabled()) { $whf_isNewsletterEnabled = true; ?>
+                <?php /*
                 <li class="control">
                         <input type="checkbox" name="is_subscribed" title="<?php echo $this->__('Sign Up for Newsletter') ?>" value="1" id="is_subscribed"<?php if($this->getFormData()->getIsSubscribed()): ?> checked="checked"<?php endif; ?> class="checkbox" />
                     <label for="is_subscribed"><?php echo $this->__('Sign Up for Newsletter') ?></label>
                 </li>
-                <?php endif ?>
+                */ ?>
+                <?php } ?>
             <?php $_dob = $this->getLayout()->createBlock('customer/widget_dob') ?>
             <?php if ($_dob->isEnabled()): ?>
                 <li><?php echo $_dob->setDate($this->getFormData()->getDob())->toHtml() ?></li>
@@ -152,15 +156,50 @@
             <?php echo $this->getChildHtml('persistent.remember.me.tooltip'); ?>
           </div>  <!--content-->
         </div>  <!--col-2 registered-users-->
+        <?php /*
         <div class="buttons-set">
             <p class="required" style="text-align:right;"><?php echo $this->__('* Required Fields') ?></p>
             <button type="submit" title="<?php echo $this->__('Submit') ?>" class="button submit"><span><?php echo $this->__('Submit') ?></span></button>
             <a href="<?php echo $this->escapeUrl($this->getBackUrl()) ?>" ><small>&laquo; </small><?php echo $this->__('Back') ?></a>
         </div>
+        */ ?>
         <?php if (Mage::helper('checkout')->isContextCheckout()): ?>
             <input name="context" type="hidden" value="checkout" />
         <?php endif; ?>
      </fieldset>  <!--col2-set-->
+
+       <div class="col2-set">
+            <div class="col-1" style="background: none;border: none; padding-top: 0; padding-bottom: 0; margin-top: 0; margin-bottom: 0; min-height: 0; height: 0;"></div>
+            <div class="col-2" style="min-height: 0;">
+                <strong><?php echo $this->__('Complete Registration') ?></strong>
+                <div class="content">            
+                    <ul class="form-list">
+                        <li class="fields">
+
+                            <div class="field">
+                                <label for="email_address"><?php echo $this->__('Email Address') ?><em class="required">*</em></label>
+                                <div class="input-box">
+                                    <input  type="text" name="email" id="email_address" value="<?php echo $this->escapeHtml($this->getFormData()->getEmail()) ?>" title="<?php echo $this->__('Email Address') ?>" class="input-text validate-email required-entry" />
+                                </div>
+                            </div>
+                            <?php if ($whf_isNewsletterEnabled): ?>
+                            <div class="field whf-field-checkbox">
+                                <input type="checkbox" name="is_subscribed" title="<?php echo $this->__('Sign Up for Newsletter') ?>" value="1" id="is_subscribed"<?php if($this->getFormData()->getIsSubscribed()): ?> checked="checked"<?php endif; ?> class="checkbox" />
+                                <div class="whf-field-checkbox-box"></div>
+                                <label for="is_subscribed"><?php echo $this->__('Sign Up for Newsletter') ?></label>
+                            </div>
+                            <?php endif ?>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="buttons-set" style="padding-top: 0;">
+                    <p class="required" style="text-align:right;"><?php echo $this->__('* Required Fields') ?></p>
+                    <button type="submit" title="<?php echo $this->__('Register Now') ?>" class="button submit"><span><?php echo $this->__('Register Now') ?></span></button>
+                    <a class="back-link button" href="<?php echo $this->escapeUrl($this->getBackUrl()) ?>" style="margin-top: 6px;"><small>&laquo; </small><?php echo $this->__('Back') ?></a>
+                </div>
+            </div>
+        </div>
     </form>
     <script type="text/javascript">
     //<![CDATA[
