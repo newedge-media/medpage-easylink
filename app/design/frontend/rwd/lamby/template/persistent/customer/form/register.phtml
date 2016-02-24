@@ -14,6 +14,7 @@
     <?php echo $this->getChildHtml('form_fields_before')?>
     <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
     <form action="<?php echo $this->getPostActionUrl() ?>" method="post" id="form-validate">
+        <?php echo $this->getBlockHtml('formkey'); ?>
       <fieldset class="col2-set login-page">
         <div class="col-1 new-users">
           <strong><?php echo $this->__('Personal Information') ?></strong>
