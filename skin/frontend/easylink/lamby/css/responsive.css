@@ -1532,9 +1532,9 @@ display:none;
 #wishlist-table th {
 	display: none;
 }
-#shopping-cart-table {
+/*#shopping-cart-table {
 	display: none;
-}
+}*/
 #shopping-cart-table th {
 	display: none;
 }
@@ -2966,9 +2966,9 @@ display:none;
 #wishlist-table th {
 	display: none;
 }
-#shopping-cart-table {
+/*#shopping-cart-table {
 	display: none;
-}
+}*/
 #shopping-cart-table th {
 	display: none;
 }
