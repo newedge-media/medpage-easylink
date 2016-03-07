@@ -6833,7 +6833,7 @@ button.button.button-clear {
 .data-table tbody th, .data-table tbody td {
 	border-right: 0px solid #eaeaea;
 	border-bottom: 1px solid #eaeaea;
-	padding: 15px;
+	padding: 10px;
 }
 .cart-table tbody th, .cart-table tbody td {
 	border-right: 0px solid #f2f2f2;
