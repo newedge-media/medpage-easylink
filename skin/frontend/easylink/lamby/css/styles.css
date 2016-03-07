@@ -2377,8 +2377,8 @@ input#coupon_code {
 	font-weight: normal;
 	margin: 0 !important;
 	outline: medium none;
-	padding: 5px 10px;
-	width: 60px;
+	padding: 5px;
+	width: 40px;
 	text-align: center;
 	height: 30px;
 	line-height: 30px;
