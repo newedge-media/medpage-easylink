@@ -2366,12 +2366,12 @@ input#coupon_code {
 	border: none;
 	float: left;
 	width: 100%;
-	background-color: #FFFFFF;
+	background-color: #fff;
 	text-align: left;
 	margin-top: 12px;
 }
 #shopping-cart-table input.qty {
-	background: none repeat scroll 0 0 #FFFFFF;
+	background: none repeat scroll 0 0 #fff;
 	border: 1px solid #f2f2f2;
 	font-size: 13px;
 	font-weight: normal;
@@ -2431,7 +2431,7 @@ input#coupon_code {
 	padding: 0;
 }
 #shopping-cart-table .item-options dd {
-	color: #CCCCCC;
+	color: #ccc;
 	margin: 0;
 }
 #shopping-cart-table h4 {
