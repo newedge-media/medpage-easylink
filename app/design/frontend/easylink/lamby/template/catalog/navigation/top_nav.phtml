@@ -9,6 +9,13 @@
 
     <?php $_helper = Mage::helper('catalog/category') ?>
     <?php $_categories = $_helper->getStoreCategories() ?>
+    <?php
+        // $categories = Mage::getModel('catalog/category')
+        // ->getCollection()
+        // ->addAttributeToSelect('*')
+        // ->addIsActiveFilter();
+
+      ?>
     <?php $menu_type = Mage::getStoreConfig('lambysettings/lambysettings_menu/navigation_menu_type'); ?>
 
     <?php if (count($_categories) > 0): ?>

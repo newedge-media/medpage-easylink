@@ -511,6 +511,7 @@
 		padding: 30px;
 	}
 
+	.cart-table tbody th.image, .cart-table tbody td.image { padding: 0 !important; }
 	.cart-table tbody th.image a, .cart-table tbody td.image a {
 		display: none !important;
 	}
@@ -543,6 +544,12 @@
 }
 
 @media (max-width: 567px) {
+
+	.cart-table tbody th.td-edit, .cart-table tbody td.td-edit,
+	.cart-table tbody th.td-wishlist, .cart-table tbody td.td-wishlist,
+	.cart-table tbody th.td-item-price, .cart-table tbody td.td-item-price {
+		display: none;
+	}
 
 	button.button.btn-proceed-checkout {
 		padding: 10px 15px;

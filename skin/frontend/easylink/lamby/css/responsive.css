@@ -1535,9 +1535,18 @@ display:none;
 /*#shopping-cart-table {
 	display: none;
 }*/
-/*#shopping-cart-table th {
+#shopping-cart-table th {
 	display: none;
-}*/
+}
+#shopping-cart-table .product-name {
+	font-size: 12px;
+}
+#shopping-cart-table .product-description {
+	font-size: 10px;
+}
+#shopping-cart-table .a-right.movewishlist .cart-price .price {
+	font-size: 12px;
+}
 #multiship-addresses-table {
 	display: none;
 }
