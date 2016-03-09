@@ -1211,7 +1211,7 @@ ul#cart-sidebar {
 	margin-top: 15px;
 }
 .search-box {
-	width: 440px;
+	width: 320px;
 	position: absolute;
 	margin: auto;
 	right: 0px;
@@ -1224,13 +1224,13 @@ ul#cart-sidebar {
 }
 #search {
 	margin: 0;
-	width: 370px;
-	font-size: 17px;
+	width: 210px;
+	font-size: 14px;
 	height: 70px;
 	color: #222327;
 	background: #fff;
 	border: none;
-	padding: 0 30px;
+	padding: 0 20px;
 	font-family: 'montserratlight';
 }
 .button-common {
@@ -1313,7 +1313,7 @@ nav {
 }
 /* Drop-down menu (horizontal)*/
 #nav-container {
-	margin-right: 440px;
+	margin-right: 320px;
 	height: 100%;
 }
 #nav-table {
@@ -1588,10 +1588,10 @@ ul.vertnav-top li > a > span > .cat-label {
 */
 
 /* horizontal + mobile menu trigger */
-#nav > li > a {
+/*#nav > li > a {
 	font-size: 13px;
 	text-transform: uppercase;
-}
+}*/
 ul.level0 {
 	padding: 0
 }
@@ -1647,11 +1647,11 @@ li.level0 > a:hover > span > .pin-bottom:before, #nav li.level0:hover > a > span
 #nav > li > a {
 	color: #fff;
 	display: block;
-	font-size: 17px;
+	font-size: 14px;
 	text-decoration: none;
 	text-transform: uppercase;
 	line-height: 70px;
-	font-family: 'montserratbold';
+	font-family: 'montserratsemi_bold';
 	border-left: solid 1px #1a4a92;
 }
 /* 1st level only
