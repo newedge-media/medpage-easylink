@@ -65,6 +65,10 @@
 
   <form action="<?php echo $this->getSubmitUrl($_product) ?>" method="post" id="product_addtocart_form"<?php if($_product->getOptions()): ?> enctype="multipart/form-data"<?php endif; ?>>
 
+   <div class="product-name product-name-mobile">
+      <h1 itemprop="name"><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h1>
+    </div> <!--product-name-->
+
     <div class="product-img-box"> 
       <?php echo $this->helper('lambysettings')->getLabel($_product);  ?>           
       <?php echo $this->getChildHtml('media') ?>           
@@ -76,7 +80,7 @@
     </div>
 
     <div class="product-shop">         
-     <div class="product-name">
+     <div class="product-name product-name-mobilehide">
       <h1 itemprop="name"><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h1>
     </div> <!--product-name-->
 

@@ -219,6 +219,19 @@
 
 @media (max-width: 767px) {
 
+	.product-name.product-name-mobile {
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.product-name.product-name-mobilehide {
+		display: none;
+	}
+
+	.main-container-inner {
+		padding-top: 0;
+	}
+
 	.our-features-box { display: none !important; }
 	.our-features-box.mob { display: block !important; }
 
