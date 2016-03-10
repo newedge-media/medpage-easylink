@@ -4456,18 +4456,30 @@ p {
 }
 /*============ Block: Account ============*/
 
-.block-account .block-title { padding-left:15px;
+.block-account .block-title {
+	/*padding-left: 15px;*/
+	color: #fff;
+	font-size: 18px;
+	margin: 0;
+	text-transform: uppercase;
+	padding: 16px !important;
+	font-family: 'montserratbold';
+	line-height: 1;
+	border-bottom: none;
+	background: #0099ff;
 }
 .block-account {
-	background-color: #f7f7f7;
+	/*background-color: #f7f7f7;*/
 }
 .block-account .block-content {
-	padding: 0 15px !important;
+	/*padding: 0 15px !important;*/
+	border: solid 1px #f2f2f2;
+	padding: 18px !important;
 }
-.block-account .block-content ul {
+/*.block-account .block-content ul {
 	margin-top: 5px;
 	margin-bottom: 5px;
-}
+}*/
 .block-account .block-content li {
 	padding: 10px 0px;
 	border-top: 1px #fff solid;
@@ -4500,7 +4512,7 @@ p {
 	color: #000;
 }
 .sidebar .block-content li.current {
-	font-weight: 900;
+	font-weight: 600;
 	color: #333;
 }
 /*============ Block: Currency Switcher ============*/
