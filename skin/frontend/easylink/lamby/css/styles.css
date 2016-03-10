@@ -7755,7 +7755,8 @@ p.required {
 .group-select .required {
 	color: #FF0000;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 15px;
+	margin-left: 5px;
+	/*font-size: 15px;*/
 }
 .group-select .require {
 	color: #FF0000;
@@ -7785,7 +7786,8 @@ p.required {
 	padding: 10px;
 	outline: none;
 }
-.group-select li input.input-text:focus, .group-select li textarea:focus {
+/*.group-select li input.input-text:focus, .group-select li textarea:focus,*/
+.group-select li input.input-text, .group-select li textarea {
 	width: 585px;
 	background: #fff;
 	border: 1px solid #ddd;
@@ -7813,7 +7815,8 @@ p.required {
 	border: 1px solid #f7f7f7;
 	padding: 10px;
 }
-.group-select li .input-box input.input-text:focus, .group-select li .input-box textarea:focus {
+/*.group-select li .input-box input.input-text:focus, .group-select li .input-box textarea:focus,*/
+.group-select li .input-box input.input-text, .group-select li .input-box textarea {
 	width: 275px;
 	margin-top: 5px;
 	background: #fff;
