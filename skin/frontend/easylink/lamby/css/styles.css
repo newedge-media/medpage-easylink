@@ -2667,9 +2667,10 @@ form h2, form h3, .section h3 {
 }
 .page-title {
 	padding: 0;
-	padding-bottom: 15px;
+	padding-bottom: 10px;
 	padding-top: 0;
 	margin: 0;
+	margin-bottom: 10px;
 	overflow: hidden;
 	border-bottom: solid 1px #f4f4f4;
 }
@@ -2946,7 +2947,7 @@ form h2, form h3, .section h3 {
 	z-index: 10000;
 	color: #000;
 	border-top: none;
-	border: 0px #F0F0F0 solid;
+	border: 1px #F0F0F0 solid;
 }
 #limiter ul ul ul {
 	position: absolute;
