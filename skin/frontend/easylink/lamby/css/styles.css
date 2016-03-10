@@ -2094,7 +2094,8 @@ p.control input.checkbox, p.control input.radio {
 	margin-top: 5px;
 	outline: none;
 }
-.form-list input.input-text:focus {
+/*.form-list input.input-text:focus,*/
+.form-list input.input-text {
 	background: #fff;
 	border: 1px solid #ddd;
 	padding: 10px;
@@ -2354,7 +2355,8 @@ input.input-text, select, textarea {
 #wishlist-table textarea {
 	padding: 10px;
 }
-input.input-text:focus, select:focus, textarea:focus {
+/*input.input-text:focus, select:focus, textarea:focus,*/
+input.input-text, select, textarea {
 	background-color: #fff;
 	border: 1px solid #ddd;
 	padding: 10px;
@@ -2620,7 +2622,7 @@ form h2, form h3, .section h3 {
 .buttons-set button.button {
 	display: inline;
 	margin-bottom: 0px;
-	background: #fff;
+	/*background: #fff;*/
 }
 .buttons-set p.required {
 	margin: 0 0 5px;
