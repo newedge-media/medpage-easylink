@@ -80,7 +80,7 @@ a:hover, a:focus {
 h1, h2, h3, h4, h5, h6, .block .block-title, .slide-title {
 	color: #333;
 	font-weight: normal;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	margin: 0;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .block .block-title a, .slide-title a {
@@ -170,7 +170,7 @@ img {
 	width: 1170px;
 	margin: auto;
 	min-height: 400px;
-	padding-top: 50px;
+	padding-top: 30px;
 }
 /* Base Columns */ 
 .col-main {
@@ -2108,7 +2108,7 @@ p.control input.checkbox, p.control input.radio {
 	outline: none;
 }
 .form-list li.additional-row {
-	border-top: 1px solid #ccc;
+	border-top: 1px solid #f4f4f4;
 	margin-top: 10px;
 	padding-top: 7px;
 }
@@ -2580,6 +2580,10 @@ input#coupon_code {
 }
 form h2, form h3, .section h3 {
 	color: #333;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: 600;
+	font-size: 1.1rem;
 }
 .main h2.subtitle, .main .widget .widget-title h2, .main .page-title h1 {
 	color: #444645;
@@ -7940,10 +7944,10 @@ p.required {
 	margin-top: 20px;
 }
 .login_page {
-	margin-bottom: 15px;
+	/*margin-bottom: 15px;*/
 	background-color: #FFFFFF;
 	padding: 0px;
-	margin-top: 35px;
+	/*margin-top: 35px;*/
 }
 .login_page .page-title h2 {
 	font-size: 22px;
@@ -8804,12 +8808,13 @@ border:0;
 button.button {
 	display: inline-block;
 	border: 0;
-	background: #fff;
+	/*background: #fff;*/
 	padding: 8px 12px;
 	font-size: 14px;
 	text-align: center;
 	white-space: nowrap;
-	color: #003686;
+	/*color: #003686;*/
+	color: #fff;
 	font-weight: normal;
 	vertical-align: top;
 	cursor: pointer;
@@ -8819,9 +8824,10 @@ button.button {
 	-webkit-border-fit: lines;
 	text-transform: uppercase;
 	font-family: 'montserratbold';
+	background: #003559;
 }
 button.button:hover {
-	background: #003686;
+	background: #335d7a;
 }
 button.button.coupon, button.button.get-quote {
 	background: #a3a3a3;
@@ -11102,7 +11108,8 @@ a:hover#wishlist_button {
 	border: 1px solid #f0f0f0;
 	margin-top: 15px
 }
-.right-side-content input:focus, textarea:focus {
+.right-side-content input:focus, textarea:focus,
+.right-side-content input, textarea {
 	/*box-shadow:inset 0 0 0 1px #D6D5D5, inset 0 0px 0 2px #fff;*/
 	outline: none;
 	border: 1px solid #f0f0f0;

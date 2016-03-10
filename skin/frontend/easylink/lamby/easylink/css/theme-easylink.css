@@ -223,7 +223,7 @@ button.button.coupon, button.button.get-quote {
   border-color: #7e9fb5; }
 
 button.button {
-  color: #003559; }
+  color: #fff; }
   button.button:hover {
     color: #fff;
     background: #7e9fb5; }
