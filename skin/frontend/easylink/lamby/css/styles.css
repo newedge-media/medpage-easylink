@@ -7226,12 +7226,26 @@ button.button.button-clear {
 }
 /*============ One Page Checkout ============*/
 .block-progress {
-	background-color: #f7f7f7;
+	/*background-color: #f7f7f7;*/
+	margin-bottom: 35px;
 }
-.block-progress .block-title { padding-left: 15px; }
+.block-progress .block-title {
+	/*padding-left: 15px;*/
+	background: #0099ff;
+	color: #fff;
+	font-size: 18px;
+	margin: 0;
+	text-transform: uppercase;
+	padding: 16px;
+	font-family: 'montserratbold';
+	line-height: 1;
+	border: none;
+}
 .block-progress .block-content {
-	padding: 12px 15px 15px;
+	/*padding: 12px 15px 15px;*/
 	text-align: left;
+	border: solid 1px #f2f2f2;
+	padding: 18px;
 }
 .block-progress dl {
 	border-top: none !important
