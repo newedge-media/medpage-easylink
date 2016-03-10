@@ -1,10 +1,3 @@
-
+# Ignore Mac DS_Store files
 .DS_Store
-
-skin/.DS_Store
-
-skin/frontend/rwd/.DS_Store
-
-skin/frontend/rwd/lamby/.DS_Store
-
-skin/frontend/.DS_Store
+*.DS_Store
