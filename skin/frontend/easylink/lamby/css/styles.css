@@ -14264,3 +14264,8 @@ li.item:hover a.thumb span.quick-view {
 .whf-field-checkbox input:checked + .whf-field-checkbox-box:before {
 	opacity: 1;
 }
+
+.page-description ul {
+	margin-left: 15px;
+	list-style: disc;
+}

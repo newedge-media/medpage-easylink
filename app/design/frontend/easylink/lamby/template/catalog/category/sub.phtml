@@ -15,9 +15,11 @@ $categories = $category->getCollection()
 				<div class="category-subcategory-thumb">
 					<img src="<?php echo $category->getImageUrl() ?>" alt="<?php echo $category->getName() ?>" />
 				</div>
+				<?php /*
 				<div class="category-subcategory-description">
 					<p><?php echo $category->getDescription() ?></p>
 				</div>
+				*/ ?>
 			</a>
 		</li>
 		<?php endforeach; ?>
