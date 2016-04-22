@@ -49,7 +49,7 @@
       </div> <!--main-col-->
 
       <div class="main-col">
-        <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('home_twitter_slider')->toHtml() ?>
+          <?php echo Mage::app()->getLayout()->createBlock('latesttweet/latesttweet')->setTemplate('newedge/crearetweets/tweet.phtml')->toHtml(); ?>
       </div>
       
       <!-- Home Lastest Blog Block -->
